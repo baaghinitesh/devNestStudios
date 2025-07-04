@@ -43,3 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   showSlide(currentIndex); // Initial
 });
+

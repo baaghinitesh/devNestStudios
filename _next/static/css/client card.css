@@ -4865,6 +4865,7 @@
   border-radius: 10px;
   padding: 47px 30px 70px;
   min-height: 180px;
+  max-height: 600px;
   overflow: hidden;
 }
 .why__item:after {
