@@ -1,0 +1,137 @@
+.careerTalentlyftVacancy {
+  background-color: #f5f5f5;
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+.careerTalentlyftVacancy__title {
+  margin-bottom: 40px;
+}
+.careerTalentlyftVacancy__subtitle {
+  display: flex;
+  align-items: center;
+  grid-gap: 0 20px;
+  margin-bottom: 40px;
+}
+.careerTalentlyftVacancy__subtitle-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.careerTalentlyftVacancy__subtitle-text {
+  font-family: var(--font-raleway), sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 26px;
+  color: #e0004d;
+}
+.careerTalentlyftVacancy__wrap {
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: unset;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.careerTalentlyftVacancy__head {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.careerTalentlyftVacancy__head-title {
+  font-size: 26px;
+  line-height: 32px;
+}
+.careerTalentlyftVacancy__head-location {
+  position: relative;
+  font-family: var(--font-open-sans), sans-serif;
+  font-weight: 400;
+  color: #101820;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+.careerTalentlyftVacancy-content div {
+  font-family: var(--font-open-sans), sans-serif;
+  font-size: 14px;
+}
+.careerTalentlyftVacancy-content h2,
+.careerTalentlyftVacancy-content h3 {
+  margin: 30px 0 20px;
+}
+.careerTalentlyftVacancy-content h4,
+.careerTalentlyftVacancy-content h5 {
+  margin: 20px 0 15px;
+}
+.careerTalentlyftVacancy-content p {
+  margin: 20px 0;
+}
+.careerTalentlyftVacancy-content ul {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 12px 0;
+  list-style-type: disc;
+  padding-left: 30px;
+}
+.careerTalentlyftVacancy-content ul p {
+  margin: 0;
+}
+.careerTalentlyftVacancy-content ol {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 12px 0;
+  padding-left: 30px;
+}
+.careerTalentlyftVacancy-content ol p {
+  margin: 0;
+}
+.careerTalentlyftVacancy-content a {
+  color: #005b58;
+}
+.careerTalentlyftVacancy-content a:hover {
+  text-decoration: underline;
+}
+.careerTalentlyftVacancy-button {
+  margin-top: 40px;
+}
+@media (min-width: 1280px) {
+  .careerTalentlyftVacancy {
+    padding-top: 300px;
+    padding-bottom: 130px;
+  }
+  .careerTalentlyftVacancy__title {
+    margin-bottom: 60px;
+  }
+  .careerTalentlyftVacancy__wrap {
+    padding: 80px;
+  }
+  .careerTalentlyftVacancy__head-title {
+    font-size: 50px;
+    line-height: 58px;
+  }
+  .careerTalentlyftVacancy-content div {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1920px) {
+  .careerTalentlyftVacancy {
+    padding-top: 300px;
+  }
+  .careerTalentlyftVacancy__title {
+    margin-bottom: 80px;
+  }
+  .careerTalentlyftVacancy__subtitle {
+    margin-bottom: 60px;
+  }
+  .careerTalentlyftVacancy__subtitle-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .careerTalentlyftVacancy-content div {
+    font-size: 18px;
+  }
+}
