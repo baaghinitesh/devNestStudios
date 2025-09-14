@@ -1,0 +1,19 @@
+{
+  "name": "devneststudios-mern",
+  "version": "1.0.0",
+  "description": "DevNestStudios - Software Product Development Company (MERN Stack)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-deps": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["DevNestStudios", "MERN", "React", "Node.js", "MongoDB", "Software Development"],
+  "author": "DevNestStudios",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
